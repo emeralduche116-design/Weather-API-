@@ -120,17 +120,18 @@ weather-api/
 ‎
 ‎✅ Basic Features:
 ‎
-‎Fetch live weather data using Axios.
+- ‎Fetch live weather data using Axios.
 ‎
-‎Handle invalid city names or empty queries.
+- ‎Handle invalid city names or empty queries.
 ‎
-‎Secure API key in .env.
+-‎ Secure API key in .env.
 ‎
-‎Return consistent, human-readable JSON.
+- ‎Return consistent, human-readable JSON.
 
-####Postman link:
+#### Postman link:
 
 #### Deployment link:https://weather-api-o8qt.onrender.com
+
 
 
 

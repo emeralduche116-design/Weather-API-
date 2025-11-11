@@ -135,22 +135,22 @@ Running on server :http://localhost:3001
 
  ### ‎🧭 Flow:
 ‎
-‎1.  User sends request → /api/weather?city=Lagos
+- ‎1.  User sends request → /api/weather?city=Lagos
 ‎
-‎2. Express receives the request → routes it to the controller.
+- ‎2. Express receives the request → routes it to the controller.
 ‎
-‎3. Controller calls weatherService → fetches data from OpenWeatherMap API.
+- ‎3. Controller calls weatherService → fetches data from OpenWeatherMap API.
 ‎
-‎4. Data is processed and formatted into JSON.
+- ‎4. Data is processed and formatted into JSON.
 ‎
-‎5. Response is sent back to the user.
+- ‎5. Response is sent back to the user.
 ‎
 
 ### Contributors
- Uche Emerald
- David Joseph
- Boluwatife Afolayan
- Daniel Echendu
- James Nnaemeka Anthony 
+- Uche Emerald
+- David Joseph
+- Boluwatife Afolayan
+- Daniel Echendu
+- James Nnaemeka Anthony 
 
 ‎

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Weather App</title>
+</head>
+<body>
+  <h1>Weather Checker</h1>
+  <input type="text" id="city" placeholder="Enter city">
+  <button onclick="getWeather()">Get Weather</button>
+  <pre id="result"></pre>
+
+  <script>
+    async function getWeather() {
+      const city = document.getElementById("city").value;
+      if (!city) return alert("Enter a city");
+
+      const res = await fetch(`/weather?address=${city}`);
+      const data = await res.json();
+      document.getElementById("result").textContent = JSON.stringify(data, null, 2);
+    }
+  </script>
+</body>
+</html>

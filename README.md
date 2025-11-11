@@ -31,8 +31,7 @@ It demonstrates backend principles such as API integration, environment manageme
 | Framework | **Express.js** | Build and manage routes, requests, and responses |
 | API Integration | **OpenWeatherMap API** | Source of real-time weather data |
 | Environment Management | **dotenv** | Store API keys securely |
-| Testing | **Postman / Thunder Client** | Test API endpoints |
-| Optional | **Redis / Node-cache** | Cache responses to speed up performance |
+| Testing | **Postman |
 
 ---
 
@@ -86,15 +85,16 @@ mkdir weather-api
 cd weather-api
 npm init -y
 
-#### Step 2:Install dependencies
+### Step 2:Install dependencies
 npm install express axios dotenv
 npm install nodemon --save-dev
 
-#### Step 3: Create .env file 
+### Step 3: Create .env file 
 PORT=3000
 WEATHER_API_KEY=your_openweathermap_api_key
 ‎ 
 server is running on : http://localhost:3000/
+
 
 ## 🌐 6. API Endpoint Design
 

@@ -1,3 +1,4 @@
+
 # 🌦️ Weather API
 
 The **Weather API** is a backend web service that provides real-time weather information based on a user’s location or city input.  
@@ -18,8 +19,7 @@ It demonstrates backend principles such as API integration, environment manageme
 - Integrate an external API (OpenWeatherMap).  
 - Ensure secure API key management with environment variables.  
 - Handle errors, invalid requests, and API rate limits.  
-- Implement clean RESTful API design for easy frontend integration.  
-- *(Optional)* Add caching (e.g., Redis or in-memory) for efficiency.
+- Implement clean RESTful API design for easy frontend integration. 
 
 ---
 
@@ -121,4 +121,23 @@ weather-api/
   "condition": "Clear Sky",
   "wind_speed": "5.2 m/s"
 }
+‎
+ ## Features Implementation
+‎
+‎✅ Basic Features:
+‎
+‎Fetch live weather data using Axios.
+‎
+‎Handle invalid city names or empty queries.
+‎
+‎Secure API key in .env.
+‎
+‎Return consistent, human-readable JSON.
+
+####Postman link:
+
+#### Deployment link:https://weather-api-o8qt.onrender.com
+
+
+
 ‎

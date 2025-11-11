@@ -110,8 +110,7 @@ weather-api/
 |--------------|-----------|--------------|----------|
 | **GET** | `/api/weather?city={city}` | Fetch current weather by city name | `/api/weather?city=Lagos` |
 | **GET** | `/api/weather/coordinates?lat={lat}&lon={lon}` | Fetch weather by coordinates | `/api/weather/coordinates?lat=6.5244&lon=3.3792` |
-
-### 🧾 Example JSON Response
+#### 🧾 Example JSON Response
 
 ```json
 {
@@ -122,6 +121,8 @@ weather-api/
   "wind_speed": "5.2 m/s"
 }
 ‎
+
+
 
 
 

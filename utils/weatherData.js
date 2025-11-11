@@ -1,6 +1,5 @@
 const request = require("request");
 
-
 const weatherData = (address, callback) => {
   const url =
     openWeatherMap.BASE_URL +

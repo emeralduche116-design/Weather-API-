@@ -111,6 +111,16 @@ Running on server :http://localhost:3001
 | **GET** | `/api/weather?city={city}` | Fetch current weather by city name | `/api/weather?city=Lagos` |
 | **GET** | `/api/weather/coordinates?lat={lat}&lon={lon}` | Fetch weather by coordinates | `/api/weather/coordinates?lat=6.5244&lon=3.3792
 ‎
+Example Response:
+[
+  {
+    "city": "Lagos",
+    "temperature": 25.74,
+    "description": "few clouds",
+    "humidity": 87,
+    "wind_speed": 2.51
+  }
+]
 
 
 
@@ -128,7 +138,7 @@ Running on server :http://localhost:3001
 ‎
 - ‎Return consistent, human-readable JSON.
 
-#### Postman link:
+#### Postman link:https://talk2dechendu-7660959.postman.co/workspace/e694064e-5d27-43df-bd5d-d65e8565b2cb/collection/47424540-ed1c2731-5184-41c0-9843-cfdcf90f7242?action=share&source=copy-link&creator=47424540
 
 #### Deployment link:https://weather-api-o8qt.onrender.com
 

@@ -77,38 +77,22 @@ weather-api/
 ‎└── server.js
 
 
-
-```bash
-mkdir weather-api
-cd weather-api
-npm init -y
-
-### Step 2:Install dependencies
-npm install express axios dotenv
-npm install nodemon --save-dev
-
-### Step 3: Create .env file 
-PORT=3000
-WEATHER_API_KEY=your_openweathermap_api_key
-‎ 
-server is running on : http://localhost:3000/
-
-
-## 🌐 6. API Endpoint Design
-
-| HTTP Method | Endpoint | Description | Example |
-|--------------|-----------|--------------|----------|
-| **GET** | `/api/weather?city={city}` | Fetch current weather by city name | `/api/weather?city=Lagos` |
-| **GET** | `/api/weather/coordinates?lat={lat}&lon={lon}` | Fetch weather by coordinates | `/api/weather/coordinates?lat=6.5244&lon=3.3792` |
-
-### 🧾 Example JSON Response
-
-```json
-{
-  "city": "Lagos",
-  "temperature": "30°C",
-  "humidity": "78%",
-  "condition": "Clear Sky",
-  "wind_speed": "5.2 m/s"
-}
-
+‎🔑 5. Environment Setup
+‎
+‎Step 1: Initialize project
+‎
+‎mkdir weather-api
+‎cd weather-api
+‎npm init -y
+‎
+‎Step 2: Install dependencies
+‎
+‎npm install express axios dotenv
+‎npm install nodemon --save-dev
+‎
+‎Step 3: Create .env file
+‎
+‎PORT=5000
+‎WEATHER_API_KEY=your_openweathermap_api_key
+‎
+‎

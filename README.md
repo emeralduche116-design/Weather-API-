@@ -31,7 +31,7 @@ It demonstrates backend principles such as API integration, environment manageme
 | Framework | **Express.js** | Build and manage routes, requests, and responses |
 | API Integration | **OpenWeatherMap API** | Source of real-time weather data |
 | Environment Management | **dotenv** | Store API keys securely |
-| Testing | **Postman |
+| Testing | **Postman** |Testing API endpoints|
 
 ---
 
@@ -76,9 +76,7 @@ weather-api/
 
 ‎└── server.js
 
-## 🔑 5. Environment Setup
 
-### Step 1: Initialize Project
 
 ```bash
 mkdir weather-api

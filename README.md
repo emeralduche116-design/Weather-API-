@@ -32,7 +32,7 @@ It demonstrates backend principles such as API integration, environment manageme
 | API Integration | **OpenWeatherMap API** | Source of real-time weather data |
 | Environment Management | **dotenv** | Store API keys securely |
 | Testing | **Postman** |Testing API endpoints|
-
+| Deployment| **Render** | For deployment|
 ---
 
 ## 🏗️ 4. Project Architecture
@@ -96,11 +96,11 @@ weather-api/
 ‎
 ### ‎Step 3: Create .env file
 ‎
-‎PORT=3000
+‎PORT=3001
 
 ‎WEATHER_API_KEY=your_openweathermap_api_key.
 
-
+Running on server :http://localhost:3001
 
 ‎
 ‎
@@ -133,6 +133,24 @@ weather-api/
 #### Deployment link:https://weather-api-o8qt.onrender.com
 
 
+ ### ‎🧭 Flow:
+‎
+‎1.  User sends request → /api/weather?city=Lagos
+‎
+‎2. Express receives the request → routes it to the controller.
+‎
+‎3. Controller calls weatherService → fetches data from OpenWeatherMap API.
+‎
+‎4. Data is processed and formatted into JSON.
+‎
+‎5. Response is sent back to the user.
+‎
 
+### Contributors
+ Uche Emerald
+ David Joseph
+ Boluwatife Afolayan
+ Daniel Echendu
+ James Nnaemeka Anthony 
 
 ‎

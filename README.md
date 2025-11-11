@@ -77,22 +77,28 @@ weather-api/
 ‎└── server.js
 
 
-‎🔑 5. Environment Setup
+## ‎🔑 5. Environment Setup
 ‎
-‎Step 1: Initialize project
+
+### ‎Step 1: Initialize project
 ‎
 ‎mkdir weather-api
+
 ‎cd weather-api
+
 ‎npm init -y
 ‎
-‎Step 2: Install dependencies
+### ‎Step 2: Install dependencies
 ‎
 ‎npm install express axios dotenv
+
 ‎npm install nodemon --save-dev
 ‎
-‎Step 3: Create .env file
+### ‎Step 3: Create .env file
 ‎
-‎PORT=5000
-‎WEATHER_API_KEY=your_openweathermap_api_key
+‎PORT=3000
+
+‎WEATHER_API_KEY=your_openweathermap_api_key.
+
 ‎
 ‎

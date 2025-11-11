@@ -100,5 +100,13 @@ weather-api/
 
 ‎WEATHER_API_KEY=your_openweathermap_api_key.
 
+
+## ‎🌐 6. API Endpoint Design
+‎
+‎HTTP Method	Endpoint	Description	Example
+‎
+‎GET	/api/weather?city={city}	Fetch current weather by city name	/api/weather?city=Lagos
+‎GET	/api/weather/coordinates?lat={lat}&lon={lon}	Fetch weather by coordinates	/api/weather/coordinates?lat=6.5244&lon=3.3792
+‎
 ‎
 ‎
